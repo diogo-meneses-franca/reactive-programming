@@ -3,7 +3,7 @@ package sec04;
 import common.Util;
 import reactor.core.publisher.Flux;
 
-public class Lec07GenerateWithState {
+public class Lec08GenerateWithState {
 
 	public static void main(String[] args) {
 		/*
