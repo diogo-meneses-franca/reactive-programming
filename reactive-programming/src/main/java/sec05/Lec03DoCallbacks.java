@@ -44,5 +44,5 @@ public class Lec03DoCallbacks {
 				//.take(4)
 				.subscribe(Util.subscriber("subscriber"));
 	}
-	
+
 }
