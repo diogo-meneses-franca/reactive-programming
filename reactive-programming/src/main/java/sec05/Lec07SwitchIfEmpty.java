@@ -11,7 +11,7 @@ public class Lec07SwitchIfEmpty {
 
 	public static void main(String[] args) {
 
-		//A condição i > 10 nunca será atendida então será invado switchIfEmpty(fallback())	
+		//A condição i > 10 nunca será atendida então será invado switchIfEmpty(fallback())
 		Flux.range(1,10)
 				.filter(i -> i > 10)
 				.switchIfEmpty(fallback())
