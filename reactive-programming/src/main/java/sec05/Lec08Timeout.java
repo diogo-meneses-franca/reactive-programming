@@ -11,7 +11,7 @@ Suponhamos que você crie um microsserviço e que este dependa de outro serviço
 retornar a resposta ao cliente, mas esse outro serviço ester esteja fora do ar, por exemplo.
 O operador timeout serve para tratar casos assim, que após um intervalo de tempo, se a resposta não
 puder ser enviada, pode-se enviar um fallback.
-Tanbém é possivel ter multiplos timouts.
+Também é possivel ter multiplos timouts.
  */
 public class Lec08Timeout {
 
