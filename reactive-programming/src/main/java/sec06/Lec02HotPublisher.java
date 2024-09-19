@@ -24,7 +24,10 @@ public class Lec02HotPublisher {
 	private static final Logger log = LoggerFactory.getLogger(Lec02HotPublisher.class);
 
 	public static void main(String[] args) {
+		//share() é o mesmo que publish().refCount(1) ou seja, a stream só será
+		//transmitida quando houver pelo menos 1 subscriber
 		var movieFlux = movieStream().share();
+
 
 		Util.sleepSeconds(2);
 		movieFlux
